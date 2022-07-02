@@ -8,6 +8,10 @@ body {
     font-size: 0.875rem;
 }
 
+.top {
+    width: 100%;
+    text-align: center;
+}
 .app {
     margin: 10px 0;
     display: flex;
@@ -34,20 +38,19 @@ body {
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    object-fit: cover;
 }
 
-button {
+.btn {
     color: black;
-    display: block;
-    width: 90%;
     border-color: transparent;
     background-color: bisque;
-    margin: 1rem auto 0 auto;
+    margin: 1rem auto;
     text-transform: capitalize;
     font-size: 1rem;
     padding: 0.5rem 0;
     letter-spacing: 0.1rem;
     border-radius: 10px;
-    outline: 1px solid rgba(242, 138, 178, 0.8);
     cursor: pointer;
+    width: 50%;
 }

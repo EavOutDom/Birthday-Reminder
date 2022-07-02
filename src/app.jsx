@@ -7,7 +7,9 @@ function App() {
     return (
         <div className="app">
             <div className="container">
+            <div className={'top'}>
                 {item} birthday today
+                </div>
                 <div className="info">
                     {data.map((data, index) => {
                         return (
@@ -21,13 +23,16 @@ function App() {
                         );
                     })}
                 </div>
+                <div className={'flex'}>
                 <button
+                    className={'btn'}
                     onClick={() => {
                         setItem((data.length = 0));
                     }}
                 >
                     Clear All
                 </button>
+                </div>
             </div>
         </div>
     );
